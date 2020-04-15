@@ -7,24 +7,21 @@ html {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.one {
-    grid-column: 1 / 4;
+.post__content, .posts__one, .posts__two, .posts__three {
     grid-row: 1;
     width: 240px;
 }
 
-.two {
+.posts__one {
+    grid-column: 1 / 4;
+}
+
+.posts__two {
     grid-column: 2 / 4;
-    grid-row: 1;
-    width: 240px;
 }
-.three {
+.posts__three {
     grid-column: 3 / 4;
-    grid-row: 1;
-    width: 240px;
 }
-.four {
+.posts__four {
     grid-column: 4 / 4;
-    grid-row: 1;
-    width: 240px;
 }
