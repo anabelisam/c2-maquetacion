@@ -4,8 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        a {
+            text-decoration: none;
+        }
+        .carousel {
+            height: 500px;
+            width: 700px;
+            flex-direction: row;
+            overflow-x: auto;
+        }
+        .carousel__slide {
+            height: 500px;
+            width: 700px;
+            font-family: system-ui, sans-serif;
+            color: white;
+            background-color: #005082;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <section class="carousel">
+        <a href="#" class="carousel__back-button">&lt;</a>
+        <a href="#" class="carousel__forward-button">&gt;</a>
+        <div class="carousel__slide">1</div>
+        <div class="carousel__slide">2</div>
+        <div class="carousel__slide">3</div>
+    </section>
 </body>
 </html>
