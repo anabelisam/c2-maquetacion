@@ -1,0 +1,30 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.one {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    width: 240px;
+}
+
+.two {
+    grid-column: 2 / 4;
+    grid-row: 1;
+    width: 240px;
+}
+.three {
+    grid-column: 3 / 4;
+    grid-row: 1;
+    width: 240px;
+}
+.four {
+    grid-column: 4 / 4;
+    grid-row: 1;
+    width: 240px;
+}
