@@ -4,6 +4,7 @@
   height: 500px;
   overflow-x: auto;
   margin-bottom: 20px;
+  scroll-snap-type: x mandatory;
 }
 .carousel__slide {
   height: 500px;
@@ -16,4 +17,5 @@
   justify-content: center;
   align-items: center;
   margin-right: 15px;
+  scroll-snap-align: start;
 }
