@@ -5,10 +5,6 @@
   --secondary-color: #4ba8cc;
 }
 
-body {
-  font-family: Arial;
-}
-
 .contact * {
   box-sizing: border-box;
 }
