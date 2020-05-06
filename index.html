@@ -6,16 +6,16 @@
   <title>7Masters - Maquetación</title>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/header.css">
-  <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/carousel.css">
   <link rel="stylesheet" href="styles/posts-recientes.css">
   <link rel="stylesheet" href="styles/second-posts.css">
   <link rel="stylesheet" href="styles/section-post.css">
   <link rel="stylesheet" href="styles/contact.css">
+  <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body>
+  <main>
   <header>
-    <section>
       <nav class="header__nav">
         <section class="header__nav--logo">
           <img src="assets/logo_5masters.png" alt="">
@@ -32,17 +32,39 @@
         </section>
       </nav>
     </section>
+    <section class="carousel">
+        <div class="carousel__slide">1</div>
+        <div class="carousel__slide">2</div>
+        <div class="carousel__slide">3</div>
+        <div class="carousel__slide">4</div>
+        <div class="carousel__slide">5</div>
+      </section>
   </header>
-
-  <section class="carousel">
-    <div class="carousel__slide">1</div>
-    <div class="carousel__slide">2</div>
-    <div class="carousel__slide">3</div>
-    <div class="carousel__slide">4</div>
-    <div class="carousel__slide">5</div>
-  </section>
-
-  <section class="posts"> <!-- Recent posts -->
+ 
+  <div class="container">
+    <div class="row">
+      <div class="card">
+        <img src="./assets/picture-post.jpeg" width="100%" alt="Image picture">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt qui alias quod sapiente quaerat?</p>
+      </div>
+      <div class="card">
+        <img src="./assets/picture-post.jpeg" width="100%" alt="Image picture">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt qui alias quod sapiente quaerat?</p>
+      </div>
+      <div class="card">
+        <img src="./assets/picture-post.jpeg" width="100%" alt="Image picture">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt qui alias quod sapiente quaerat?</p>
+      </div>
+      <div class="card">
+        <img src="./assets/picture-post.jpeg" width="100%" alt="Image picture">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt qui alias quod sapiente quaerat?</p>
+      </div>
+      
+    </div>
+  </div>
+  
+  <!-- Recent posts -->
+  <!-- <section class="posts"> 
     <h2 class="posts__title">Posts Recientes</h2>
     <div class="posts__container">
       <div class="posts__container-item">
@@ -66,9 +88,11 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore placeat voluptas perspiciatis magnam. </p>
       </div>
     </div>
-  </section>
+  </section> --> 
 
-  <section class="posts"> <!-- Second posts -->
+  
+  <!-- Second posts -->
+  <!-- <section class="posts"> 
     <div class="posts__content" id="posts__one">
         <img src="assets/demo.png" alt="Demo Imagen">
         <p>inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.
@@ -89,42 +113,10 @@
         <p>The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.
         </p>
     </div>
-  </section>
+  </section>  -->
 
-  <section class="section__card">
-    <div class="container__card card-1">
-      <div class="content__card ">
-        <img src="assets/picture-post.jpeg" alt="pic">
-        <div class="text">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi perspiciatis quaerat optio sed suscipit</p>
-        </div>
-      </div>
-    </div>
-    <div class="container__card card-2">
-      <div class="content__card ">
-        <img src="assets/picture-post.jpeg" alt="pic">
-        <div class="text">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi perspiciatis quaerat optio sed suscipit</p>
-        </div>
-      </div>
-    </div>
-    <div class="container__card card-3">
-      <div class="content__card ">
-        <img src="assets/picture-post.jpeg" alt="pic">
-        <div class="text">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi perspiciatis quaerat optio sed suscipit.</p>
-        </div>
-      </div>
-    </div>
-    <div class="container__card card-4">
-      <div class="content__card ">
-        <img src="assets/picture-post.jpeg" alt="pic">
-        <div class="text">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi perspiciatis quaerat optio sed suscipit</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- Post card start -->
+  <!-- End of post cards -->
 
   <section class="contact">
     <div class="contact-form">
@@ -170,5 +162,9 @@
     </div>
     <div></div>
   </footer>
+
+</main>
+
+  
 </body>
 </html>
