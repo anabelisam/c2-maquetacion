@@ -5,14 +5,8 @@
   --secondary-color: #4ba8cc;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+.contact * {
   box-sizing: border-box;
-}
-
-body {
-  font-family: Arial;
 }
 
 .contact {
@@ -31,8 +25,8 @@ body {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
-.contact-form h2 {
-  margin-bottom: 12px;
+.contact-form h3 {
+  margin: 0 0 12px 0;
 }
 
 .form {
