@@ -2,6 +2,8 @@
 
 This html component layout represent the last four posts for the site. Follow the instructions to add the component to your own layouts.
 
+![recent-posts](https://i.imgur.com/R4Rqtqx.png "recent-posts-example")
+
 ### Prerequisites
 
 You must have an html document with a root element, like `<body />` or `<app />`.
