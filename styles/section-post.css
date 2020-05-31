@@ -10,7 +10,7 @@
 
 .content__card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 5px;   
+    border-radius: 5px 0 0;   
     
 }
 
@@ -22,25 +22,9 @@ img {
 .text p {
     margin: 0 10px;
     padding:  10px;
+    font-family: 'Lato';
 }
 
-
-.card-1 {
-    grid-row-end: span 2;
-    
-}
-.card-2 {
-    grid-row-end: span 2;
-    
-}
-.card-3 {
-    grid-row-end: span 2;
-    
-}
-.card-4 {
-    grid-row-end: span 2;
-
-}
 
 
 
