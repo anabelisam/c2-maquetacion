@@ -55,5 +55,5 @@
 ## 🎁 Gratitud 
 - ### Coach - Ana Belisa 📢
 - ### Una cerveza 🍺 o un café ☕ a todo el equipo  cohort2-team-ana.
-- ### Gracias públicamente a PlatziMaster, Ana Belisa, Gabriel 🤓.
+- ### Gracias públicamente a PlatziMaster.
 - ### ⌨️ con ❤️ por Marius 😊
